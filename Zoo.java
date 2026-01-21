@@ -79,11 +79,22 @@ public class Zoo {
 
    }
  }
+   public Cage getCage(int num) {
+      if(num==1){
+         return cage1;
+      }else if(num==2){
+         return cage2;
+      }else{
+         return cage3;
+      }
+   }
+    
+ 
 
 
     // toString():
     // Return a multi-line description of the Zoo including each cage (and the animal inside).
     public String toString(){
-      return "This is a zoo it has 3 cages; cage1: "+cage1+"\n cage2: "+cage2+"\n cage3: "+cage3;
+      return "This is a zoo it has 3 cages;\n cage1: "+cage1+"\n cage2: "+cage2+"\n cage3: "+cage3;
 }
 }
