@@ -54,13 +54,13 @@ public class Animal {
     // Create the toString() method which returns friendly description of the animal
     public String toString(){
      if(this.animalType.equals("Tiger")){
-         return " a Tiger it is from Asia";
+         return "a Tiger it is from Asia";
          }else if(this.animalType.equals("Lion")){
          return "a Lion it is from Africa";
          }else if(this.animalType.equals("Gorilla")){
          return "a Gorilla it is from the Central Forest of Africa";
          }else if(this.animalType.equals("Giraffe")){
-         return " a Giraffe it is from Africa";
+         return "a Giraffe it is from Africa";
          }else{
          return " a "+this.animalType+" it lives somewhere in the world";
          }
